@@ -23,6 +23,11 @@ provide visualization of this data.
 
 ![Image Alt text](data-image/screenone.png "Optional title")
 
+###API Result
+This Api result json is past to flutter for further calculations on the dashboard
+
+![Image Alt text](data-image/apiresult.png "Optional title")
+
 ### Results
 ### Previous Year Expense
 ![Image Alt text](data-image/download(1).png "Previous Year Expense")
@@ -32,9 +37,6 @@ provide visualization of this data.
 
 ### Next Year Forecast Expense
 ![Image Alt text](data-image/download(3).png "Next Year Forecast Expense")
-
-## Deployed Url
-[Link to Deployed Solution](gfgpccoe.in)
 
 ## Video Url
 [Link to Demo Video](https://drive.google.com/drive/folders/1jO5_o4o_1UCiCiLQuMnJLvqhgAb4F26K)
