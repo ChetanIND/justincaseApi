@@ -23,11 +23,14 @@ provide visualization of this data.
 
 ![Image Alt text](data-image/screenone.png "Optional title")
 
-## Results
+### Results
+# Previous Year Expense
 ![Image Alt text](data-image/download(1).png "Previous Year Expense")
 
+### Next Month Forecast Expense
 ![Image Alt text](data-image/download(2).png "Next Month Forecast Expense")
 
+### Next Year Forecast Expense
 ![Image Alt text](data-image/download(3).png "Next Year Forecast Expense")
 
 ## Deployed Url
