@@ -19,13 +19,13 @@ provide visualization of this data.
 - Django
 
 ## Screenshots
-
+![Image Alt text]( "Optional title"))
 
 ## Deployed Url
 [Link to Deployed Solution](gfgpccoe.in)
 
 ## Video Url
-[Link to Demo Video](video_url)
+[Link to Demo Video](https://drive.google.com/drive/folders/1jO5_o4o_1UCiCiLQuMnJLvqhgAb4F26K)
 
 ## Remarks
 - Any additional things you want to share
