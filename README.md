@@ -11,9 +11,7 @@ users to create and manage categories for their expenses (food, health, entertai
 provide visualization of this data.
 
 ## Features
-- Feature 1
-- Feature 2
-- ...
+- This is a ML api integration code for expense forecasting and predicting next months expense rate
 
 ## Tech Stack
 - Flutter
