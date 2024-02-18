@@ -24,7 +24,7 @@ provide visualization of this data.
 ![Image Alt text](data-image/screenone.png "Optional title")
 
 ### Results
-# Previous Year Expense
+### Previous Year Expense
 ![Image Alt text](data-image/download(1).png "Previous Year Expense")
 
 ### Next Month Forecast Expense
