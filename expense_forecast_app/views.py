@@ -6,12 +6,16 @@ from rest_framework.response import Response
 import pandas as pd
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 import matplotlib.pyplot as plt
+from sanic import Sanic
+from sanic.response import json
+
+app = Sanic(__name__)
 
 @api_view(['GET'])
 @csrf_exempt
 def expense_forecast(request):
     # Load the data
-    data = pd.read_csv("expense_forecast_app/financedata.csv")
+    data = pd.read_csv("../financedata.csv")
 
     # Convert the datetime column to datetime format and set it as index
     data['Date/Time'] = pd.to_datetime(data['Date/Time'])
@@ -42,7 +46,7 @@ def expense_forecast(request):
 
     # Save the plot as an image
     imagecount = 0
-    image_path = f'data-image/expense_forecast_{imagecount}.png'
+    image_path = f'./data-image/expense_forecast_{imagecount}.png'
     plt.savefig(image_path)
     imagecount += 1
 
@@ -51,4 +55,7 @@ def expense_forecast(request):
         'image_path': image_path,
         'forecast': forecast_next_month.tolist()
     }
-    return JsonResponse(response_data)
+    return json(response_data)
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=8000)
