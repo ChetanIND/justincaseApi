@@ -19,7 +19,7 @@ provide visualization of this data.
 - Django
 
 ## Screenshots
-![Image Alt text]( "Optional title"))
+![Image Alt text](data-image/screentwo.png "Optional title"))
 
 ## Deployed Url
 [Link to Deployed Solution](gfgpccoe.in)
